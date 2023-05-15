@@ -1,8 +1,5 @@
-# Live Demo
-https://message-notification-system-erickm.vercel.app/
-
 # Descrição do projeto
-Projeto feito como forma de teste da Vibbra (https://vibbra.com.br/). Esse teste é de Fullstack.
+Projeto feito como forma de teste da Vibbra. Esse teste é de Fullstack.
 Esse projeto tem como finalidade ser uma plataforma única de notificações (web push, sms, e-mail).
 
 # Funcionalidades
@@ -75,9 +72,9 @@ EMAIL
 
 
 # Tech Stack
-**Frontend:** Next, Typescript
-**Backend:** Node, Fastify, Typescript, Mongoose
-**Database:** MongoDB
+- **Frontend:** Next, Typescript
+- **Backend:** Node, Fastify, Typescript, Mongoose
+- **Database:** MongoDB
 
 
 # Dependências
@@ -86,22 +83,22 @@ React Hook Form, Nookies, Toastfy, Zod, Date-fns, Eslint, entre outros.
 
 # Variáveis de ambiente
 ## Frontend
-NEXT_PUBLIC_API_URL (URL do servidor backend)
+`NEXT_PUBLIC_API_URL` (URL do servidor backend)
 
 ## Backend
-NODE_ENV
-JWT_SECRET
-DATABASE_URL (URL do banco de dados MongoDB)
+`NODE_ENV`
+`JWT_SECRET`
+`DATABASE_URL` (URL do banco de dados MongoDB)
 
 # Para rodar localmente (frontend)
 Clone o diretório
 ```bash
-  git clone 
+  git clone https://github.com/erickmohor/notification-system-next/
 ```
 
 Vá no diretório do projeto
 ```bash
-  cd message-notification-system
+  cd notification-system-next
 ```
 
 Instale as dependências
@@ -119,12 +116,12 @@ Com as variáveis de ambiente preenchidas, inicie o servidor
 # Para rodar localmente (backend)
 Clone o diretório
 ```bash
-  git clone 
+  git clone https://github.com/erickmohor/notification-system-server
 ```
 
 Vá no diretório do projeto
 ```bash
-  cd message-notification-system-server
+  cd notification-system-server
 ```
 
 Instale as dependências
